@@ -15,17 +15,13 @@ public class Order {
      */
     public static final String TABLE_ORDER = "Orders";
     /**
-     * The column name for the unique identifier of an order.
-     */
-    public static final String ORDER_ID = "Order_id";
-    /**
      * The column name for the date the order was placed.
      */
     public static final String DATE = "Date";
     /**
      * The column name for the hour the order was placed.
      */
-    public static final String HOUR = "Hour";
+    public static final String TIME = "Time";
     /**
      * The column name for the ID of the worker who handled the order.
      */

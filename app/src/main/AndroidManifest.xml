@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".LeaveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SortActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowAllDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreditsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false" />
+        <activity
             android:name=".CompanyActivity"
             android:exported="false" />
         <activity

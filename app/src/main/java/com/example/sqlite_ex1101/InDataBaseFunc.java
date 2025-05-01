@@ -4,6 +4,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 /**
+ * @author Tal Weintraub <tv0823@bs.amalnet.k12.il>
+ * @version	1
+ * @since 6/4/2025
  * Provides functionality to check if a specific value exists in a database table.
  */
 public class InDataBaseFunc {
@@ -11,10 +14,10 @@ public class InDataBaseFunc {
     /**
      * Checks if a given parameter exists in a specified database table.
      *
-     * @param dataBaseName The name of the database table to query.
-     * @param param The value to search for.
-     * @param paramType The column name in which to search for the value.
-     * @param hlp An instance of {@link HelperDB} to access the database.
+     * @param dataBaseName The dataBaseName.
+     * @param param The param.
+     * @param paramType The paramType.
+     * @param hlp The hlp.
      * @return {@code true} if the parameter exists in the database, {@code false} otherwise.
      */
     public static boolean inDataBase(String dataBaseName, String param, String paramType, HelperDB hlp) {

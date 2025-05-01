@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuHome"
+        android:title="Home" />
+    <item
+        android:id="@+id/menuShow"
+        android:title="Show data" />
+    <item
+        android:id="@+id/menuSort"
+        android:title="Sort" />
+    <item
+        android:id="@+id/menuLeave"
+        android:title="Leave" />
+    <item
+        android:id="@+id/menuCred"
+        android:title="Credits" />
+</menu>

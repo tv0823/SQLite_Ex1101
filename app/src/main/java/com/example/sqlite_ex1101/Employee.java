@@ -1,6 +1,11 @@
 package com.example.sqlite_ex1101;
 
 /**
+ * The type Credits activity.
+ *
+ * @author      Tal Weintraub <tv0823@bs.amalnet.k12.il>
+ * @version	    1
+ * @since		6/4/2025
  * The type Employee database constants.
  * This class holds constants related to the structure of the "Employees" database table.
  */

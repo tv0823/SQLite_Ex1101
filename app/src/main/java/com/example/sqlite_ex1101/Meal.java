@@ -28,7 +28,7 @@ public class Meal {
     /**
      * The column name for any extra items included with the meal.
      */
-    public static final String EXTRAS = "Extras";
+    public static final String EXTRA = "Extra";
     /**
      * The column name for the dessert item.
      */
